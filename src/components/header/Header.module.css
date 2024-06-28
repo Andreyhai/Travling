@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0; }
+  .header__content {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly; }
+    .header__content_logo {
+      /* Travling */
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 140%;
+      display: flex;
+      align-items: center;
+      /* Primary/600/default */
+      color: #42A7C3;
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0; }
+    .header__content_navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      width: 50%; }
+      .header__content_navigation_item {
+        /* Product */
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #333333;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0; }
+    .header__content_buttonBlock {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: end; }
+      .header__content_buttonBlock_button {
+        /* base_button */
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 32px;
+        gap: 2px;
+        background: #FA8443;
+        border-radius: 8px;
+        /* Inside auto layout */
+        flex: none;
+        flex-grow: 0;
+        border: none;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0; }
+
+/*# sourceMappingURL=Header.module.css.map */
